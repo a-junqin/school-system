@@ -4,7 +4,7 @@
   "description": "School system for teachers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,9 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "promise-mysql": "^3.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
   }
 }
