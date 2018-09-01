@@ -29,6 +29,11 @@ Create *school-system-mysql* database and import *school-system.sql* located in 
 ```sh
 node app.js
 ```
+Server will listens to port 3001, to modify the port number, change the following line in app.js
+
+```js
+const PORT = process.env.PORT || 3001
+```
 
 ## Demo
 A demo application is hosted on [Heroku](https://www.heroku.com/

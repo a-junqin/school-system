@@ -1,5 +1,3 @@
-// load app server on port 3001
-// localhost:3001
 const express = require('express')
 const app = express()
 const router = require('./process/process')
