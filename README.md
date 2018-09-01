@@ -16,13 +16,14 @@ School System provides API endpoints for application to interface with so that t
 #### Application
 ```sh
 git clone https://github.com/a-junqin/school-system.git
+
 cd school-system
 ```
 ```sh
 npm install
 ```
 #### Database
-Create *school-system-mysql* database and import *school-system.sql* located in dbscripts folder.
+Create *school_system_mysql* database and import *school_system.sql* located in dbscripts folder.
 
 ## Starting the server
 
